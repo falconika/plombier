@@ -308,14 +308,19 @@ textarea {
     }
 }
 
-#carousel-example-generic{
-    width: auto;
-}
+
 /*footer*/
+.footer{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+
 footer{
     position:absolute;
-    bottom:0;
-    height:auto;;
+    margin-bottom: :0;
+    height:2em;
     width:100%;
 }
 
@@ -331,7 +336,7 @@ footer{
 .footer {
 	background: #EDEFF1;
 	height: auto;
-	padding-bottom: 30px;
+	padding-bottom: 5em;
 	position: relative;
 	width: 100%;
 	border-bottom: 1px solid #CCCCCC;
@@ -346,10 +351,10 @@ footer{
 .footer h3 {
 	border-bottom: 1px solid #BAC1C8;
 	color: #54697E;
-	font-size: 18px;
-	font-weight: 600;
-	line-height: 27px;
-	padding: 40px 0 10px;
+	font-size: 2em;
+	font-weight: 200;
+	line-height: 1em;
+	padding: 10px 0 10px;
 	text-transform: uppercase;
 }
 .footer ul {
@@ -455,3 +460,10 @@ footer{
 	font-size: 1.5em;
 }
 /*endoffooter*/
+/*Containerhome*/
+.container-fluid{
+    background-color: #5F9EA0;
+}
+.textacentrer{
+    text-align: center;
+}

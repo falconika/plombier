@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Plombier</title>
+        <title>Tarifs</title>
         <meta name="description" content="Plombier ">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -18,9 +18,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
         <!--  modification of navbar bootstrap  -->
-
             <nav class="navbar navbar-light bg-faded fluid">
               <a class="navbar-brand" href="index.html">Saint Plombier</a>
               <ul class="nav navbar-nav">
@@ -28,7 +26,7 @@
                   <a class="nav-link" href="index.html">Acceuil<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="tarif.html">Nos Tarifs</a>
+                  <a class="nav-link" href="tarif.html">Tarifs</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
@@ -37,30 +35,57 @@
             </nav>
         <!-- and of navbar -->
         <section>
-          <div class="container-fluid ">
-              <div class="row ">
-                <div class="col-lg-6">
-                    <figure>
-                        <img class="img-fluid img-center" src="img/plombier2.jpg" alt=" image fuite robinetterie" />
-                    </figure>
-                </div>
-                <div class="col-lg-6 ">
-                    <br>
-                    <h2>Nos compétences</h2>
-                    <p class="texteacentrer">
+            <div class="container">
+                <!-- startofcontainer -->
+                        <div class="container-fluid">
+                            <div class="row">
+                                    <form>
+                                      <fieldset class="form-group">
+                                        <label for="exampleInputEmail1">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                        <small class="text-muted">Nous ne communiquons pas les données recueillies</small>
+                                      </fieldset>
+                                      <fieldset class="form-group">
+                                        <label for="exampleSelect1">Choisissez le type de prestation</label>
+                                        <select class="form-control" id="exampleSelect1">
+                                          <option>Réparation</option>
+                                          <option>Installation</option>
 
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
-                        sed do eiusmod tempor incididunt ut labore et dolore <br>
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-                        Duis aute irure dolor in reprehenderit in voluptate <br>
-                        velit esse cillum dolore eu fugiat nulla pariatur. <br>
-                        Excepteur sint occaecat cupidatat non proident,<br>
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-                    </p>
+                                        </select>
+                                      </fieldset>
+                                      <fieldset class="form-group">
+                                        <label for="exampleTextarea">Décrivez brièvement vos besoins</label>
+                                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                      </fieldset>
+                                      <div class="radio">
+                                        <label>
+                                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                         Formule express
+                                        </label>
+                                      </div>
+                                      <div class="radio">
+                                        <label>
+                                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                          Formule express+
+                                        </label>
+                                      </div>
+                                      <div class="radio disabled">
+                                        <label>
+                                          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                                          Formule confort
+                                        </label>
+                                      </div>
+                                      <div class="checkbox">
+                                        <label>
+                                          <input type="checkbox"> Devis sur place
+                                        </label>
+                                      </div>
+                                      <button type="submit" class="btn btn-primary">OK</button>
+                                    </form>
+                            </div>
+                        </div>
+                <!-- endofcontainer -->
                 </div>
-              </div>
-          </div>
         </section>
         <!-- endofsection -->
         <!-- footer -->
@@ -92,6 +117,7 @@
               </div>
               <!--/.footer-->
         </footer>
+
         <!-- end footer -->
 
 
